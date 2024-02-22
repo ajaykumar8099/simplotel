@@ -1,0 +1,197 @@
+*{
+    margin: 0px;
+}
+.nav-bar{
+    padding: 2px;
+    background-color:rgb(248, 100, 100);
+}
+.nav-items-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+}
+.nav-item{
+    font-family: sans-serif;
+    font-weight: 600;
+}
+.nav-img{
+    height: 50px;
+    width: 50px;
+}
+.home-bg-container{
+    display: flex;
+    min-height: 90vh;
+}
+.home-content-container{
+    width: 50%;
+    background-image: linear-gradient(to right, rgb(255, 245, 198),rgb(241, 183, 193));
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+}
+.home-heading{
+    font-family: sans-serif;
+    margin-bottom: 50px;
+}
+.home-para{
+    font-family: 'Arial';
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+.button{
+    width: 130px;
+    padding: 10px;
+    background-color: rgb(247, 117, 139);
+    color: white;
+    font-family: sans-serif;
+    border: none; 
+}
+.button:hover{
+    background-image:linear-gradient(to left,rgb(253, 253, 151),rgb(243, 89, 69),black);
+    cursor: pointer;
+}
+.home-img-contianer{
+    width: 50%;
+}
+.home-img{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+.second-page-container{
+    min-height: 100vh;
+    background-image: linear-gradient(to right, rgb(255, 245, 198),rgb(241, 183, 193));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.second-sub-card-container{
+    display: flex;
+}
+.images-container{
+    display: flex;
+    align-items: center;
+}
+.imge-one-container{
+    display: flex;
+    flex-direction: column;
+    
+}
+.one-img{
+    height: 200px; 
+    width: 200px;
+    object-fit: cover;
+    margin: 5px;
+}
+.two-img{
+    height: 410px;
+    width: 250px;
+    object-fit: cover;
+    margin-left: 15px;
+}
+.lorem-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.lorem-card-container{
+    padding: 20px;
+    background-color:rgb(248, 100, 100);
+    margin-left: 20px;
+}
+.lorem-para{
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 30px;
+}
+.lorem-card-head{
+    font-weight: 600;
+    font-family: sans-serif;
+    margin-bottom: 30px;
+}
+.click-btn{
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    color: black;
+    font-family: sans-serif;
+    border: none;
+    font-weight: 600;
+}
+.arrow-img{
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+}
+
+@media only screen and (max-width:767px){
+    .home-img-contianer{
+        display: none;
+    }
+    .home-content-container{
+        background-image: url("https://res.cloudinary.com/dvfn1vhum/image/upload/v1708593281/pexels-robin-stickel-70497_g85woa.jpg");
+        opacity: 0.9;
+        min-height: 90vh;
+        width: 100%;
+        background-size: cover;
+    }
+    .home-heading{
+        font-weight: 800;
+        color: #fa6060; 
+        text-shadow: 3px 3px 3px #000000;
+    }
+    .home-para{
+        font-weight: 900;
+        color: black;
+        font-family: sans-serif;
+        text-shadow: 2px 2px 2px rgba(247, 113, 113, 0.5);
+        letter-spacing: 1px;
+        font-size: 16px;
+    
+    }
+    .second-sub-card-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .one-img{
+        object-fit: cover;
+        width: 130px;
+       
+    }
+    .two-img{
+        object-fit: cover;
+        width: 170px;
+        height: 400px;
+    }
+    .lorem-container{
+        margin-top: 30px;
+    }
+    .nav-img{
+        display: none;
+    }
+    .nav-bar{
+        padding-top: 15px;
+        padding-bottom: 15px;
+        width: 100%;
+    }
+    .nav-item{
+        font-weight: normal;
+        font-size: 13px;
+    }
+    .button{
+        box-shadow: 0px 4px 16px 0px #e3ebed;
+        font-weight: 600;
+    }
+    .mb{
+        display: none;
+    }
+    .second-page-container{
+        width: 100%;
+    }
+}
